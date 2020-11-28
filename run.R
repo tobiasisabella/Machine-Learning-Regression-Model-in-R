@@ -6,7 +6,7 @@ head(df)
 
 #Plot the values in the file
 plot(df$Data1, df$Data2, pch = 16, cex = 1.3, col = "blue", 
-     main = "Data1 vs Data2", 
+     main = "Data2 vs Data1", 
      xlab = "Data1", 
      ylab = "Data2")
 
@@ -29,7 +29,7 @@ prediction
 #Plot
 plot(df$Data1, df$Data2, pch = 16, cex = 1.3, 
      col = "blue", 
-     main = "Data1 vs Data2", 
+     main = "Data2 vs Data1", 
      xlab = "Data1", 
      ylab = "Data2")
 
